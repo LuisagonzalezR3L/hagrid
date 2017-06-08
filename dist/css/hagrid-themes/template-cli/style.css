@@ -11062,11 +11062,11 @@ table.table.table-lg th {
 }
 
 .m-50-b {
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 
 .m-100-t {
-  margin-top: 100px;
+  margin-top: 100px !important;
 }
 
 .p-25-x {
