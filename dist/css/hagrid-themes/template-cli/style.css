@@ -2505,6 +2505,12 @@ div {
   }
 }
 @media screen and (min-width: 460px) and (max-width: 700px) {
+  body h1 {
+    font-size: 36px;
+  }
+  body .leads {
+    font-size: 16px;
+  }
   body .gs-block_auto-sm {
     display: block;
   }
@@ -2612,6 +2618,12 @@ div {
   }
 }
 @media screen and (max-width: 460px) {
+  body h1 {
+    font-size: 36px;
+  }
+  body .leads {
+    font-size: 16px;
+  }
   body .gs:not(.keep-lay):not(.keep-order),
   body .grid-system:not(.keep-lay):not(.keep-order),
   body .gs-block-xs {
@@ -2752,7 +2764,7 @@ div {
     text-align: right;
   }
   body .hide-xs {
-    display: none;
+    display: none !important;
   }
   body .show-xs,
   body .block-xs {
